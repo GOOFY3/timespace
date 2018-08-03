@@ -1,52 +1,39 @@
-import React, { Component } from "react";
-import "./Post.css"
+// src/components/Post/index.js
+    import React, { Component } from "react";
+    import "./Post.css";
+    class Post extends Component {
+      constructor(props){
+        super(props);
 
-class Post extends Component {
+      }
       render() {
-        return(
-          <div>
-        <div className="Post" ref="Post">
+        const nickname = this.props.nickname;
+        const avatar = this.props.avatar;
+        const image = this.props.image;
+        const caption = this.props.caption;
+
+        return (
+          <article className="Post" ref="Post">
             <header>
               <div className="Post-user">
                 <div className="Post-user-avatar">
-                  <img src={require('../../image.jpg')} alt="Mundy" />
+                  <img src={avatar} alt={nickname} />
                 </div>
                 <div className="Post-user-nickname">
-                  <span>Aquib</span>
+                  <span>{nickname}</span>
                 </div>
               </div>
             </header>
             <div className="Post-image">
               <div className="Post-image-bg">
-                <img alt="Sid" src={require('../../image.jpg')} />
+                <img alt="Icon Living" src={image} />
               </div>
             </div>
             <div className="Post-caption">
-              <strong>@aquib</strong> says: First Try!!!
+              <strong>@{nickname}:</strong> {caption}
             </div>
-          </div>
-          <div className="Post" ref="Post">
-              <header>
-                <div className="Post-user">
-                  <div className="Post-user-avatar">
-                    <img src={require('../../image.jpg')} alt="Mundy" />
-                  </div>
-                  <div className="Post-user-nickname">
-                    <span>Aquib</span>
-                  </div>
-                </div>
-              </header>
-              <div className="Post-image">
-                <div className="Post-image-bg">
-                  <img alt="Sid" src={require('../../img2.jpg')} />
-                </div>
-              </div>
-              <div className="Post-caption">
-                <strong>@aquib</strong> says: Second Try!!!
-              </div>
-            </div>
-        </div>
-        );
+          </article>
+          );
         }
     }
     export default Post;

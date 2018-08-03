@@ -20,23 +20,10 @@
    }
    .Nav-brand-logo {
      display: block;
-     background-position: 0px -8px;
+     background-position: -176px 0px;
+     background-size: 405px 379px;
      background-repeat: no-repeat;
-     height: 55px;
+     height: 35px;
      width: 176px;
-     float:left;
-     background-repeat: no-repeat;
-     background-size: contain;
-     background-size: cover;
-     /* text-indent: -1000% */
-   }
-   .home{
-     text-decoration: None;
-     font-weight: bold;
-     float:left;
-     font-size:48px;
-     color:Black;
-     font-family:Comic Sans MS;
-     margin-left:50%;
-     margin-right:50%
+     text-indent: -1000%
    }

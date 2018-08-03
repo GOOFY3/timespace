@@ -1,5 +1,6 @@
-import React from "react";
-import "./Header.css";
+// src/components/Header/index.js
+    import React from "react";
+    import "./Header.css";
 
     class Header extends React.Component{
         render(){
@@ -7,8 +8,9 @@ import "./Header.css";
                <nav className="Nav">
                  <div className="Nav-menus">
                    <div className="Nav-brand">
-                     <div className="Nav-brand-logo" href="/">
-                      </div>
+                     <a className="Nav-brand-logo" href="/">
+                       
+                     </a>
                    </div>
                  </div>
                </nav>
