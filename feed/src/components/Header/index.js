@@ -9,9 +9,6 @@ import "./Header.css";
                    <div className="Nav-brand">
                      <div className="Nav-brand-logo" href="/">
                       </div>
-                      <a className="home" href="/">
-                       TimeSpace
-                     </a>
                    </div>
                  </div>
                </nav>

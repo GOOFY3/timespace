@@ -4,8 +4,8 @@
       border: 1px solid #e6e6e6;
       background-color: #fff;
       margin-bottom: 60px;
-      margin-left : 20%;
-      margin-right: 20%;
+      margin-left : 30%;
+      margin-right: 30%;
     }
     .Post-user {
       display: flex;
@@ -32,10 +32,11 @@
     .Post-image img {
       display: block;
       width: 100%;
-      height:100%;
+      height:800px;
       margin-left: auto;
 	    margin-right: auto;
 	    display: block;
+
     }
     .Post-caption {
       padding: 16px 16px;
@@ -49,3 +50,57 @@
       visibility: hidden;
       opacity: 0;
     }
+      @media screen and (max-width:1440px){
+      .Post{
+        border-radius: 3px;
+        border: 1px solid #e6e6e6;
+        background-color: #fff;
+        margin-bottom: 60px;
+        margin-left:30%;
+        margin-right:30%;
+      }
+      .Post-image img{
+        height:700px
+      }
+    }
+
+@media screen and (max-width:1024px){
+  .Post{
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left:25%;
+    margin-right:25%;
+  }
+  .Post-image img{
+    height:700px
+  }
+}
+@media screen and (max-width:978px){
+  .Post{
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left:20%;
+    margin-right:20%;
+  }
+  .Post-image img{
+    height:700px
+  }
+}
+@media screen and (max-width:425px){
+  .Post{
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left:10%;
+    margin-right:10%;
+
+  }
+  .Post-image img{
+    height:400px
+  }
+}

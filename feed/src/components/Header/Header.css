@@ -21,7 +21,6 @@
    .Nav-brand-logo {
      display: block;
      background-position: 0px -8px;
-     background-image: url(../../download.png);
      background-repeat: no-repeat;
      height: 55px;
      width: 176px;
@@ -37,5 +36,7 @@
      float:left;
      font-size:48px;
      color:Black;
-     font-family:Comic Sans MS
+     font-family:Comic Sans MS;
+     margin-left:50%;
+     margin-right:50%
    }
