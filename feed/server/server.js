@@ -26,7 +26,7 @@ let userslist = {
           a: {
             id: "a",
             nickname: "aquib",
-            avatar: "../src/image.jpg"
+            avatar: "https://www.facebook.com/photo.php?fbid=1593525877430133&set=a.101842909931778.2205.100003182074204&type=3&theater"
           },
         };
 
@@ -37,7 +37,7 @@ let postslist = {
               id: "a",
               user: userslist["a"],
               caption: "Mundeyyyy",
-              image: "{require('./image.jpg')}"
+              image: "https://www.facebook.com/photo.php?fbid=1593525877430133&set=a.101842909931778.2205.100003182074204&type=3&theater"
             },
             b: {
               id: "b",
